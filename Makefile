@@ -1,4 +1,7 @@
 instance_types:
 	@./instance_types/main.py
 
-.PHONY: instance_types
+cloudwatch_logs:
+	@./cloudwatch_logs/main.py
+
+.PHONY: instance_types cloudwatch_logs
